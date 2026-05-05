@@ -30,6 +30,7 @@ Install the required package:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Setting the OpenAI API Key
 
@@ -41,18 +42,24 @@ Do not write your API key directly in `run_compatibility.py`.
 
 ```bash
 export OPENAI_API_KEY="your_api_key_here"
+```
 
 ### Windows PowerShell
 
-'''PowerShell
+```powershell
 $env:OPENAI_API_KEY="your_api_key_here"
+```
 
 ### Windows Command Prompt
 
-'''cmd
+```cmd
 set OPENAI_API_KEY=your_api_key_here
+```
 
-### After setting the environment variable, run:
-'''bash
+## Running the Script
+
+After setting the environment variable, run:
+
+```bash
 python run_compatibility.py
-
+```
