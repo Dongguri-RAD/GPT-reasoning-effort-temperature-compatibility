@@ -1,0 +1,1 @@
+# GPT-reasoning-effort-temperature-compatibility
